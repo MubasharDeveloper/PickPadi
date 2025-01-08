@@ -44,7 +44,7 @@
 }
 
 .about-content {
-    max-width: 566px;
+    /* max-width: 566px; */
 }
 
 .text-base {
@@ -52,7 +52,7 @@
 }
 
 .about-content .title {
-    font-size: 26px;
+    font-size: 34px;
     margin-bottom: 12px;
 }
 
@@ -126,4 +126,10 @@
 
 #about-card{
     padding: 120px 0px 0px;
+}
+
+@media(max-width: 600px){
+    #about-card{
+        padding: 90px 0px 0px;
+    }
 }
