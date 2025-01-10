@@ -332,7 +332,7 @@ template {
 
 body {
   color: var(--helio-color-primaryText);
-  font-family: "Glovo", "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "PickPadi", "Arial", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
@@ -2141,66 +2141,66 @@ body {
 
 @font-face {
   font-display: fallback;
-  font-family: "Glovo";
+  font-family: "PickPadi";
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.glovoapp.com/customer_font_1598d684cd1da75de6c11c0de09becc426089caa2518e0a88e6278b4ab81f87b_GlovoSans-Black.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_ebb5adb8eb8b70e39bc22c5a3403bfcd622f9a37852836fed5cc7fdf0fbce5b8_GlovoSans-Black.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_62fc7d77fc8477bbca1d73f6c8a9e84339574444e197e1569d8ce4954f0f9285_GlovoSans-Black.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_1598d684cd1da75de6c11c0de09becc426089caa2518e0a88e6278b4ab81f87b_PickPadiSans-Black.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_ebb5adb8eb8b70e39bc22c5a3403bfcd622f9a37852836fed5cc7fdf0fbce5b8_PickPadiSans-Black.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_62fc7d77fc8477bbca1d73f6c8a9e84339574444e197e1569d8ce4954f0f9285_PickPadiSans-Black.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "GlovoBlack";
+  font-family: "PickPadiBlack";
   font-style: normal;
   font-weight: 900;
-  src: url(https://fonts.glovoapp.com/customer_font_1598d684cd1da75de6c11c0de09becc426089caa2518e0a88e6278b4ab81f87b_GlovoSans-Black.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_ebb5adb8eb8b70e39bc22c5a3403bfcd622f9a37852836fed5cc7fdf0fbce5b8_GlovoSans-Black.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_62fc7d77fc8477bbca1d73f6c8a9e84339574444e197e1569d8ce4954f0f9285_GlovoSans-Black.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_1598d684cd1da75de6c11c0de09becc426089caa2518e0a88e6278b4ab81f87b_PickPadiSans-Black.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_ebb5adb8eb8b70e39bc22c5a3403bfcd622f9a37852836fed5cc7fdf0fbce5b8_PickPadiSans-Black.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_62fc7d77fc8477bbca1d73f6c8a9e84339574444e197e1569d8ce4954f0f9285_PickPadiSans-Black.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "Glovo";
+  font-family: "PickPadi";
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.glovoapp.com/customer_font_d64297554409264bddf31caf9f5223ad6a1ed13058422875ae786dfd48182485_GlovoSans-Bold.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_bbd0a8ec05f08dc46db397a2616d7d9b313790770c07a5c9253f950c4777014f_GlovoSans-Bold.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_7b0589c3b0ae3fe1e04a5fc4ffe47ddbcca9d113f8045bb682d406b00925cd9a_GlovoSans-Bold.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_d64297554409264bddf31caf9f5223ad6a1ed13058422875ae786dfd48182485_PickPadiSans-Bold.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_bbd0a8ec05f08dc46db397a2616d7d9b313790770c07a5c9253f950c4777014f_PickPadiSans-Bold.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_7b0589c3b0ae3fe1e04a5fc4ffe47ddbcca9d113f8045bb682d406b00925cd9a_PickPadiSans-Bold.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "GlovoBold";
+  font-family: "PickPadiBold";
   font-style: normal;
   font-weight: 700;
-  src: url(https://fonts.glovoapp.com/customer_font_d64297554409264bddf31caf9f5223ad6a1ed13058422875ae786dfd48182485_GlovoSans-Bold.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_bbd0a8ec05f08dc46db397a2616d7d9b313790770c07a5c9253f950c4777014f_GlovoSans-Bold.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_7b0589c3b0ae3fe1e04a5fc4ffe47ddbcca9d113f8045bb682d406b00925cd9a_GlovoSans-Bold.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_d64297554409264bddf31caf9f5223ad6a1ed13058422875ae786dfd48182485_PickPadiSans-Bold.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_bbd0a8ec05f08dc46db397a2616d7d9b313790770c07a5c9253f950c4777014f_PickPadiSans-Bold.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_7b0589c3b0ae3fe1e04a5fc4ffe47ddbcca9d113f8045bb682d406b00925cd9a_PickPadiSans-Bold.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "Glovo";
+  font-family: "PickPadi";
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.glovoapp.com/customer_font_6594a65ebe90997b22399732ca1d7639567b88ebc9159fcfacd00498819f5d17_GlovoSans-Book.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_1f49ce04575548476a63ac80f1e74737a8b442daab20cbc23cef061d8b72b3f0_GlovoSans-Book.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_13b4549ebc808b158be4f350514ee91d897ee9ef2265d15c27808a0eddca8c5c_GlovoSans-Book.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_6594a65ebe90997b22399732ca1d7639567b88ebc9159fcfacd00498819f5d17_PickPadiSans-Book.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_1f49ce04575548476a63ac80f1e74737a8b442daab20cbc23cef061d8b72b3f0_PickPadiSans-Book.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_13b4549ebc808b158be4f350514ee91d897ee9ef2265d15c27808a0eddca8c5c_PickPadiSans-Book.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "GlovoBook";
+  font-family: "PickPadiBook";
   font-style: normal;
   font-weight: 300;
-  src: url(https://fonts.glovoapp.com/customer_font_6594a65ebe90997b22399732ca1d7639567b88ebc9159fcfacd00498819f5d17_GlovoSans-Book.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_1f49ce04575548476a63ac80f1e74737a8b442daab20cbc23cef061d8b72b3f0_GlovoSans-Book.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_13b4549ebc808b158be4f350514ee91d897ee9ef2265d15c27808a0eddca8c5c_GlovoSans-Book.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_6594a65ebe90997b22399732ca1d7639567b88ebc9159fcfacd00498819f5d17_PickPadiSans-Book.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_1f49ce04575548476a63ac80f1e74737a8b442daab20cbc23cef061d8b72b3f0_PickPadiSans-Book.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_13b4549ebc808b158be4f350514ee91d897ee9ef2265d15c27808a0eddca8c5c_PickPadiSans-Book.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "Glovo";
+  font-family: "PickPadi";
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.glovoapp.com/customer_font_94250297e93b374af2850ec3afe7755ece938b5bbd6515455acab35d2c79a591_GlovoSans-Medium.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_7d4646cb786c2eba15f71fedc41b79b826c446ce9836a56316eadd36458c9ed7_GlovoSans-Medium.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_acc276d0f11224c526b0ae38921c49100d81a32b2c4b05fab756fc82206825b1_GlovoSans-Medium.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_94250297e93b374af2850ec3afe7755ece938b5bbd6515455acab35d2c79a591_PickPadiSans-Medium.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_7d4646cb786c2eba15f71fedc41b79b826c446ce9836a56316eadd36458c9ed7_PickPadiSans-Medium.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_acc276d0f11224c526b0ae38921c49100d81a32b2c4b05fab756fc82206825b1_PickPadiSans-Medium.otf) format("opentype")
 }
 
 @font-face {
   font-display: fallback;
-  font-family: "GlovoMedium";
+  font-family: "PickPadiMedium";
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.glovoapp.com/customer_font_94250297e93b374af2850ec3afe7755ece938b5bbd6515455acab35d2c79a591_GlovoSans-Medium.woff2) format("woff2"), url(https://fonts.glovoapp.com/customer_font_7d4646cb786c2eba15f71fedc41b79b826c446ce9836a56316eadd36458c9ed7_GlovoSans-Medium.woff) format("woff"), url(https://fonts.glovoapp.com/customer_font_acc276d0f11224c526b0ae38921c49100d81a32b2c4b05fab756fc82206825b1_GlovoSans-Medium.otf) format("opentype")
+  src: url(https://fonts.PickPadiapp.com/customer_font_94250297e93b374af2850ec3afe7755ece938b5bbd6515455acab35d2c79a591_PickPadiSans-Medium.woff2) format("woff2"), url(https://fonts.PickPadiapp.com/customer_font_7d4646cb786c2eba15f71fedc41b79b826c446ce9836a56316eadd36458c9ed7_PickPadiSans-Medium.woff) format("woff"), url(https://fonts.PickPadiapp.com/customer_font_acc276d0f11224c526b0ae38921c49100d81a32b2c4b05fab756fc82206825b1_PickPadiSans-Medium.otf) format("opentype")
 }
 
 .nuxt-progress {
@@ -2403,21 +2403,21 @@ body {
   }
 }
 
-.glovo-logo-balloon[data-v-3cd8784f] {
+.PickPadi-logo-balloon[data-v-3cd8784f] {
   aspect-ratio: 1;
   height: auto;
   width: 100%
 }
 
-.glovo-logo-balloon__path--yellow[data-v-3cd8784f] {
+.PickPadi-logo-balloon__path--yellow[data-v-3cd8784f] {
   fill: var(--helio-color-controlBackground)
 }
 
-.glovo-logo-balloon__path--white[data-v-3cd8784f] {
+.PickPadi-logo-balloon__path--white[data-v-3cd8784f] {
   fill: var(--helio-color-buttonText)
 }
 
-.glovo-logo[data-v-3cae43e0] {
+.PickPadi-logo[data-v-3cae43e0] {
   aspect-ratio: 2.96875;
   height: auto;
   max-width: 119px;
@@ -2425,18 +2425,18 @@ body {
 }
 
 @media(max-width:600px) {
-  .glovo-logo[data-v-3cae43e0] {
+  .PickPadi-logo[data-v-3cae43e0] {
     max-width: 78px
   }
 }
 
-.glovo-logo__balloon--yellow[data-v-3cae43e0],
-.glovo-logo__text--yellow[data-v-3cae43e0] {
+.PickPadi-logo__balloon--yellow[data-v-3cae43e0],
+.PickPadi-logo__text--yellow[data-v-3cae43e0] {
   fill: var(--helio-color-controlBackground)
 }
 
-.glovo-logo__balloon--white[data-v-3cae43e0],
-.glovo-logo__text--white[data-v-3cae43e0] {
+.PickPadi-logo__balloon--white[data-v-3cae43e0],
+.PickPadi-logo__text--white[data-v-3cae43e0] {
   fill: var(--helio-color-buttonText)
 }
 
@@ -2530,7 +2530,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-buttonText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 48px
@@ -2570,7 +2570,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 38px
@@ -2612,7 +2612,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-alert);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 38px
@@ -2652,7 +2652,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-alert);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 38px
@@ -2692,7 +2692,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 38px
@@ -2732,7 +2732,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-prime);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 38px
@@ -2772,7 +2772,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-prime);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 38px
@@ -2812,7 +2812,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 700;
   height: 38px
@@ -2852,7 +2852,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 48px
@@ -2892,7 +2892,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   height: 48px
@@ -2933,7 +2933,7 @@ body {
   box-shadow: 0 3px 5px 0 var(--helio-color-shadow);
   color: #000;
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 36px
@@ -2973,7 +2973,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-primaryText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 36px
@@ -3014,7 +3014,7 @@ body {
   box-shadow: 0 3px 5px 0 var(--helio-color-shadow);
   color: var(--helio-color-primaryText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 36px
@@ -3055,7 +3055,7 @@ body {
   box-shadow: 0 3px 5px 0 var(--helio-color-shadow);
   color: var(--helio-color-buttonText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 36px
@@ -3095,7 +3095,7 @@ body {
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   height: 36px
@@ -3136,7 +3136,7 @@ body {
   box-shadow: 0 3px 5px 0 var(--helio-color-shadow);
   color: var(--helio-color-buttonText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 48px
@@ -3178,7 +3178,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   box-shadow: 0 3px 5px 0 var(--helio-color-shadow);
   color: var(--helio-color-buttonText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 48px
@@ -3219,7 +3219,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   box-shadow: 0 3px 5px 0 var(--helio-color-shadow);
   color: var(--helio-color-prime);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 48px
@@ -3259,7 +3259,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   border-radius: 24px;
   color: var(--helio-color-accent);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   height: 48px
@@ -3299,7 +3299,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   border-radius: 24px;
   color: var(--helio-color-buttonText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   height: 48px
@@ -3339,7 +3339,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   border-radius: 24px;
   color: #000;
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   height: 48px
@@ -3352,13 +3352,13 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 .helio-button.unelevatedMedium[data-v-1e30e945]:hover {
   background-color: var(--helio-color-softGlobalBackground);
   border: none;
-  color: var(--helio-color-buttonText)
+  color: #000
 }
 
 .helio-button.unelevatedMedium[data-v-1e30e945]:active {
   background-color: var(--helio-color-softGlobalBackground);
   border: none;
-  color: var(--helio-color-buttonText)
+  color: #000
 }
 
 .helio-button.unelevatedMedium.disabled[data-v-1e30e945] {
@@ -3416,7 +3416,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   background-color: var(--helio-color-globalBackground);
   color: var(--helio-color-primaryText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 16px;
@@ -3612,7 +3612,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   background-color: var(--helio-color-globalBackground);
   color: var(--helio-color-primaryText);
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   left: 0;
@@ -3782,7 +3782,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   color: #017963;
   cursor: pointer;
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   padding: var(--helio-space-3XS) 0 var(--helio-space-3XS) var(--helio-space-2XS)
@@ -4170,7 +4170,8 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  margin: 0 0 var(--helio-space-S)
+  margin: 0 0 var(--helio-space-S);
+  color: #fff;
 }
 
 @media(max-width:600px) {
@@ -4238,10 +4239,10 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 .heading-h1[data-v-55071b9b] {
-  color: var(--helio-color-primaryText);
+  color: #fff;
   word-wrap: anywhere;
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 54px;
   font-weight: 600;
   line-height: 1;
@@ -4251,7 +4252,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 @media(max-width:1024px) {
   .heading-h1[data-v-55071b9b] {
     font-display: fallback;
-    font-family: "Glovo", Helvetica, Arial, sans-serif;
+    font-family: "PickPadi", Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
     margin: var(--helio-space-M) 0
@@ -4462,7 +4463,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   }
 }
 
-.why-glovo[data-v-c08edb78] {
+.why-PickPadi[data-v-c08edb78] {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -4477,14 +4478,14 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 @media(max-width:1024px) {
-  .why-glovo[data-v-c08edb78] {
+  .why-PickPadi[data-v-c08edb78] {
     padding-left: 5%;
     padding-right: 5%
   }
 }
 
 @media(max-width:600px) {
-  .why-glovo[data-v-c08edb78] {
+  .why-PickPadi[data-v-c08edb78] {
     margin-bottom: var(--helio-space-XL);
     margin-top: calc(var(--helio-space-2XL)*-1);
     padding-left: var(--helio-space-M);
@@ -4492,31 +4493,31 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   }
 }
 
-.why-glovo__title.heading-h2--bigger[data-v-c08edb78] {
+.why-PickPadi__title.heading-h2--bigger[data-v-c08edb78] {
   justify-content: center;
   margin-bottom: var(--helio-space-2XL);
   text-align: center
 }
 
 @media(max-width:600px) {
-  .why-glovo__title.heading-h2--bigger[data-v-c08edb78] {
+  .why-PickPadi__title.heading-h2--bigger[data-v-c08edb78] {
     /* display: none */
   }
 }
 
-.why-glovo__button-wrapper[data-v-c08edb78] {
+.why-PickPadi__button-wrapper[data-v-c08edb78] {
   order: 5;
   width: 100%
 }
 
 @media(max-width:600px) {
-  .why-glovo__button-wrapper[data-v-c08edb78] {
+  .why-PickPadi__button-wrapper[data-v-c08edb78] {
     margin-top: calc(var(--helio-space-2XL)*-1);
     order: 2
   }
 }
 
-.why-glovo__button.helio-button.unelevatedMedium[data-v-c08edb78] {
+.why-PickPadi__button.helio-button.unelevatedMedium[data-v-c08edb78] {
   margin: 0 auto;
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -4525,7 +4526,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 @media(max-width:600px) {
-  .why-glovo__button.helio-button.unelevatedMedium[data-v-c08edb78] {
+  .why-PickPadi__button.helio-button.unelevatedMedium[data-v-c08edb78] {
     height: 40px;
     max-width: min(276px, 90%);
     min-width: 0;
@@ -4534,7 +4535,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   }
 }
 
-.why-glovo__columns[data-v-c08edb78] {
+.why-PickPadi__columns[data-v-c08edb78] {
   align-items: stretch;
   display: flex;
   flex-wrap: wrap;
@@ -4543,20 +4544,20 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 @media(max-width:600px) {
-  .why-glovo__columns[data-v-c08edb78] {
+  .why-PickPadi__columns[data-v-c08edb78] {
     align-items: center;
     flex-direction: column;
     gap: var(--helio-space-4XL)
   }
 }
 
-.why-glovo--closed-country[data-v-c08edb78] {
+.why-PickPadi--closed-country[data-v-c08edb78] {
   margin-bottom: var(--helio-space-5XL)
 }
 
 .heading-h2[data-v-68f10053] {
   align-items: center;
-  color: var(--helio-color-primaryText);
+  color: #fff;
   display: flex;
   margin: var(--helio-space-L) 0;
   word-wrap: anywhere
@@ -4601,7 +4602,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   }
 }
 
-.why-glovo-element[data-v-dd82c8a6] {
+.why-PickPadi-element[data-v-dd82c8a6] {
   align-items: center;
   display: flex;
   flex: 1 1 296px;
@@ -4610,17 +4611,17 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 @media(max-width:600px) {
-  .why-glovo-element[data-v-dd82c8a6] {
+  .why-PickPadi-element[data-v-dd82c8a6] {
     flex-basis: auto
   }
 }
 
-.why-glovo-element__image[data-v-dd82c8a6] {
+.why-PickPadi-element__image[data-v-dd82c8a6] {
   display: block;
   margin-bottom: var(--helio-space-L)
 }
 
-.why-glovo-element__title[data-v-dd82c8a6] {
+.why-PickPadi-element__title[data-v-dd82c8a6] {
   color: var(--helio-color-primaryText);
   font-size: 20px;
   font-weight: 700;
@@ -4629,7 +4630,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   text-align: center
 }
 
-.why-glovo-element__description[data-v-dd82c8a6] {
+.why-PickPadi-element__description[data-v-dd82c8a6] {
   color: var(--helio-color-primaryText);
   font-size: 16px;
   font-weight: 300;
@@ -4736,7 +4737,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   background: var(--helio-color-softGlobalBackground);
   border-radius: var(--helio-space-L);
   color: var(--helio-color-primaryText);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
   padding: var(--helio-space-S) var(--helio-space-XL);
@@ -4746,7 +4747,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 
 @media(max-width:600px) {
   .location-links__link[data-v-2f0fe175] {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.22;
     padding: var(--helio-space-XS) var(--helio-space-L)
@@ -5091,9 +5092,10 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !important;
   border-image-slice: 68 0 0;
   border-image-source: var(--footer-wave-desktop);
-  border-top: 30px solid transparent;
+  /* border-top: 30px solid transparent; */
   flex-direction: column;
   justify-content: flex-start;
+  padding-top: 68px;
   margin-top: 68px;
   z-index: var(--helio-z-index-footer)
 }
@@ -5103,9 +5105,9 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
     background-clip: padding-box;
     border-image-slice: 74 0 0;
     border-image-source: var(--footer-wave-mobile);
-    border-top: 74px solid transparent;
+    /* border-top: 74px solid transparent; */
     margin-top: 74px;
-    padding: 0 var(--helio-space-XL)
+    padding: 30px var(--helio-space-XL);
   }
 }
 
@@ -5218,7 +5220,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 .footer-column__title[data-v-65b57d68] {
-  color:black;
+  color:#fff;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2;
@@ -5246,13 +5248,13 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 }
 
 .footer-column__link[data-v-65b57d68] {
-  color:black;
+  color:#fff;
   cursor: pointer;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.29;
-  margin: var(--helio-space-2XS) 0 var(--helio-space-M);
+  margin: var(--helio-space-2XS) 0 var(--helio-space-XS);
   -webkit-text-decoration: none;
   text-decoration: none;
 }
@@ -5333,7 +5335,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
   color: var(--helio-color-buttonText);
   display: flex;
   font-display: fallback;
-  font-family: "Glovo", Helvetica, Arial, sans-serif;
+  font-family: "PickPadi", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   height: 46px;
@@ -5353,7 +5355,7 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
     border: none;
     display: flex;
     font-display: fallback;
-    font-family: "Glovo", Helvetica, Arial, sans-serif;
+    font-family: "PickPadi", Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
     height: 46px;
