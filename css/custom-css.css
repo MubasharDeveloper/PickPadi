@@ -223,3 +223,40 @@
     font-size: 20px !important;
     color: #fff !important;
 }
+
+.mobile-responsive-offcanvas{
+    background: linear-gradient(107deg, #ffbe0b -0.03%, #fb5607 48.87%) !important;
+}
+
+@media(max-width: 600px){
+    .mobile-responsive-offcanvas{
+        width: 100% !important;
+    }
+}
+
+.btn-close:focus{
+    box-shadow: none !important;
+}
+
+.btn-close{
+    --bs-btn-close-color: #fff;
+    --bs-btn-close-bg: url('') !important;
+}
+
+.mobile-menu ul li a{
+    background-color: transparent;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 20px 0px;
+    text-align: center;
+    border-bottom: 1px solid #bdbdbd !important;
+}
+
+.mobile-menu ul li a.border-0{
+    border: 0px !important;
+}
+
+.mobile-menu ul li a:hover{
+    /* background: linear-gradient(90deg, #00d4ff00 0%, #0909795b 50%, #00d4ff00 100%); */
+    background: radial-gradient(circle, #ffffff5b 0%, #00d4ff00 100%);
+}

@@ -21,13 +21,13 @@
             <div class="unified-header__desktop unified-header-desktop" data-v-44c1ecc5 data-v-de8cbbf4>
               <div class="unified-header-desktop__top" data-v-44c1ecc5>
                 <div data-test-id="unified-header-desktop-logo py-2" class="unified-header-desktop__left" data-v-44c1ecc5>
-                  <a href="#" class="" style="text-decoration: none;">
+                  <a href="index.php" class="" style="text-decoration: none;">
                     <img src="img/header-logo.png" alt="" width="75" class="rounded-circle">
                   </a>
                 </div>
 
                 <nav class="nav-bar">
-                  <a href="#" class="nav-btn active">Home</a>
+                  <a href="index.php" class="nav-btn active">Home</a>
                   <a href="#" class="nav-btn">Contact</a>
                   <a href="#service-card" class="nav-btn">Services</a>
                   <a href="#about-card" class="nav-btn">About</a>
@@ -40,16 +40,6 @@
                       <path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
                     </svg>
                   </button>
-
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                    <div class="offcanvas-header">
-                      <h4 class="offcanvas-title" id="offcanvasRightLabel">PickPadi</h4>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      
-                    </div>
-                  </div>
                   <button type="button" href data-test-id="login-button" class="helio-button login-button pill"
                     data-v-1e30e945 data-v-c1b4f66c data-v-44c1ecc5>
                     <span class="helio-button__content" data-v-1e30e945>
@@ -77,12 +67,17 @@
                 <div class="unified-header-mobile__top d-flex justify-content-between align-items-center"
                   data-v-6cd8b1c6>
                   <div class="unified-header-mobile__navigation-menu" data-v-6cd8b1c6>
-                    <a href="#" aria-current="page" aria-label="Home" data-test-id="header-logo"
+                    <a href="index.php" aria-current="page" aria-label="Home" data-test-id="header-logo"
                       class="header-logo nuxt-link-exact-active nuxt-link-active" data-v-4ab15648 data-v-6cd8b1c6>
                       <img src="img/header-logo.png" alt="" width="75" class="rounded-circle">
                     </a>
                   </div>
-                  <div data-v-6cd8b1c6>
+                  <div data-v-6cd8b1c6 class="d-flex flex-row-reverse">
+                    <button class="offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                      <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="" style="width: 20px; height: 20px;">
+                        <path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
+                      </svg>
+                    </button>
                     <button type="button" href data-test-id="login-button" class="helio-button login-button pill"
                       data-v-1e30e945 data-v-c1b4f66c data-v-6cd8b1c6>
                       <span class="helio-button__content" data-v-1e30e945>
@@ -100,6 +95,36 @@
               </div>
             </div>
           </div>
+
+          <div class="offcanvas offcanvas-end mobile-responsive-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header shadow">
+              <a href="index.php" class="" style="text-decoration: none;">
+                <img src="img/header-logo.png" alt="" width="75" class="rounded-circle">
+              </a>
+              <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close">
+                <svg class="svg-inline--fa fa-xmark" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="" style="width: 20px; height: 20px;">
+                  <path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path>
+                </svg>
+              </button>
+            </div>
+            <div class="offcanvas-body pt-5 mobile-menu">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">About</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link">Services</a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link border-0">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <div data-test-id="address-container-section" id="home"
             class="global-jumbotron landing-container__jumbotron global-jumbotron--without-wave" data-v-e5745f4e>
             <div data-test-id="address-animation" class="animation" data-v-1cf24364 data-v-e5745f4e>
@@ -525,7 +550,7 @@
         </div>
         <footer class="app-footer hidden-mobile-when-search" data-v-240119c0="" data-v-a8b274d2="">
             <div class="app-footer__container" data-v-240119c0="">
-              <a href="#" class="" style="text-decoration: none;">
+              <a href="index.php" class="" style="text-decoration: none;">
                 <img src="img/header-logo.png" alt="" width="75" class="rounded-circle">
               </a>
               <div class="app-footer__grid" data-v-240119c0="">
