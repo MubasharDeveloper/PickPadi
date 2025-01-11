@@ -5,6 +5,7 @@
 <head>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/owl.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/custom-css.css">
@@ -83,114 +84,51 @@
                   <div>Your next job is on the way</div>
                 </div>
               </h2>
-              <div data-v-e0bb6e12="" class="relative flex h-full pb-3 mt-8 px-4 md:mt-12">
-                <ul data-v-e0bb6e12="" class="flex h-full w-full grow-0 snap-both snap-proximity overflow-scroll">
-                  <li class="snap-center snap-always list-none flex justify-center space-x-4 px-8 min-w-full"
-                    data-v-e0bb6e12=""><a
-                      href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7722063002/?gh_jid=7722063002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">iOS Engineer (They/She/He)</div>
-                      <div class="text-sm text-gray-700">Barcelona, Spain (Hybrid)</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7641505002/?gh_jid=7641505002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Tax Manager - Compliance &amp; Reporting (They/She/He)</div>
-                      <div class="text-sm text-gray-700">Barcelona</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7779347002/?gh_jid=7779347002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Account Manager XL Intern (They/He/She)</div>
-                      <div class="text-sm text-gray-700">Lisbon, Portugal</div>
-                    </a></li>
-                  <li class="snap-center snap-always list-none flex justify-center space-x-4 px-8 min-w-full"
-                    data-v-e0bb6e12=""><a
-                      href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7768479002/?gh_jid=7768479002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Brand Ads Lead </div>
-                      <div class="text-sm text-gray-700">Barcelona, Spain</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7681561002/?gh_jid=7681561002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Brands Account Manager</div>
-                      <div class="text-sm text-gray-700">Almaty, Kazakhstan</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7780667002/?gh_jid=7780667002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Senior Account Manager Regions - Italy</div>
-                      <div class="text-sm text-gray-700">Milan</div>
-                    </a></li>
-                  <li class="snap-center snap-always list-none flex justify-center space-x-4 px-8 min-w-full"
-                    data-v-e0bb6e12=""><a
-                      href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7692532002/?gh_jid=7692532002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Sr Account Manager Brands Ads - Italy (They/She/He)</div>
-                      <div class="text-sm text-gray-700">Milan, Italy</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7607526002/?gh_jid=7607526002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Brands Account Manager - Bucharest</div>
-                      <div class="text-sm text-gray-700">Bucharest, Romania</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7752494002/?gh_jid=7752494002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Head of Commercial - Tunisia</div>
-                      <div class="text-sm text-gray-700">Tunis, Tunisia</div>
-                    </a></li>
-                  <li class="snap-center snap-always list-none flex justify-center space-x-4 px-8 min-w-full"
-                    data-v-e0bb6e12=""><a
-                      href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7758131002/?gh_jid=7758131002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Social Media Analyst</div>
-                      <div class="text-sm text-gray-700">Warsaw - Poland</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7762586002/?gh_jid=7762586002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">Sr. Account Manager Regions (They/He/She)</div>
-                      <div class="text-sm text-gray-700">Madrid, Spain</div>
-                    </a><a href="https://jobs.PickPadiapp.com/find-your-ride/job/:slug/7672315002/?gh_jid=7672315002"
-                      target="_blank" rel="noopener noreferrer"
-                      class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3">
-                      <div class="font-bold text-gray-800">PickPadi Supermarket Manager (They/She/He)</div>
-                      <div class="text-sm text-gray-700">Podgorica, Podgorica, Montenegro</div>
-                    </a></li>
-                </ul>
-                <div data-v-e0bb6e12=""><button data-v-e0bb6e12="" aria-label="previous item"
-                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-300 bg-opacity-50 transition hover:bg-opacity-60 absolute top-1/2 -translate-y-1/2 left-2 cursor-not-allowed opacity-40"><svg
-                      width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                      class="rotate-180">
-                      <path d="M1.56957 2L7.5 7.96501L1.5 14" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="stroke-gray-700"></path>
-                    </svg></button> <button data-v-e0bb6e12="" aria-label="next item"
-                    class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-300 bg-opacity-50 transition hover:bg-opacity-60 absolute top-1/2 -translate-y-1/2 right-2"><svg
-                      width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
-                      <path d="M1.56957 2L7.5 7.96501L1.5 14" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" class="stroke-gray-700"></path>
-                    </svg></button>
-                  <div data-v-2821900a="" data-v-e0bb6e12="" class="absolute left-1/2 -bottom-8 -translate-x-1/2">
-                    <!---->
-                    <div data-v-2821900a="" class="flex gap-x-2"><button data-v-2821900a=""
-                        class="h-3 w-3 rounded-full transition-colors duration-100 bg-yellow-400"></button><button
-                        data-v-2821900a=""
-                        class="h-3 w-3 rounded-full transition-colors duration-100 bg-gray-200"></button><button
-                        data-v-2821900a=""
-                        class="h-3 w-3 rounded-full transition-colors duration-100 bg-gray-200"></button><button
-                        data-v-2821900a=""
-                        class="h-3 w-3 rounded-full transition-colors duration-100 bg-gray-200"></button></div>
-                    <!---->
+              
+              <div class="container">
+                <div class="testimonial-carousel owl-carousel" style="margin-top: 80px !important;">
+                
+                  <div class="testimonial-item text-center rounded">
+                    <div rel="noopener noreferrer" class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3" style="min-height: 160px;">
+                      <div class="font-bold text-gray-800">
+                        <strong>Content Quality Analyst - Partner Operations</strong>
+                      </div> 
+                      <div class="text-sm text-gray-700">
+                        <span>Barcelona, Spain (Hybrid)</span>
+                      </div>
+                    </div>
                   </div>
+                  <div class="testimonial-item text-center rounded">
+                    <div rel="noopener noreferrer" class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3" style="min-height: 160px;">
+                      <div class="font-bold text-gray-800">
+                        <strong>Content Quality Analyst - Partner Operations</strong>
+                      </div> 
+                      <div class="text-sm text-gray-700">
+                        <span>Barcelona, Spain (Hybrid)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial-item text-center rounded">
+                    <div rel="noopener noreferrer" class="flex flex-col items-center justify-center space-y-1 rounded-xl bg-yellow-200 p-6 text-center transition hover:opacity-90 basis-1/3" style="min-height: 160px;">
+                      <div class="font-bold text-gray-800">
+                        <strong>Content Quality Analyst - Partner Operations</strong>
+                      </div> 
+                      <div class="text-sm text-gray-700">
+                        <span>Barcelona, Spain (Hybrid)</span>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
+
               <div class="mt-20 flex items-center justify-center">
-              <a type="button" href="" class="helio-button corporate-element__button primary" data-v-1e30e945="">
-                <span class="helio-button__content" data-v-1e30e945="">
-                  XYZ
-                </span>
-              </a>
-                </div>
+                <a type="button" href="" class="helio-button corporate-element__button primary" data-v-1e30e945="">
+                  <span class="helio-button__content" data-v-1e30e945="">
+                    Contact Us
+                  </span>
+                </a>
+              </div>
             </div>
           </section>
         </div>
@@ -202,8 +140,42 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/owl.js"></script>
   <script src="fontawesome/js/all.js"></script>
   <script src="js/script.js"></script>
+
+  <script>
+    // testimonial carousel
+    $(".testimonial-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        center: false,
+        dots: true,
+        loop: true,
+        margin: 25,
+        nav : true,
+        navText : [
+            '<button data-v-e0bb6e12="" aria-label="previous item" class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-300 bg-opacity-50 transition hover:bg-opacity-60 absolute top-1/2 -translate-y-1/2 left-2"><svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="rotate-180"><path d="M1.56957 2L7.5 7.96501L1.5 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stroke-gray-700"></path></svg></button>',
+            '<button data-v-e0bb6e12="" aria-label="next item" class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gray-300 bg-opacity-50 transition hover:bg-opacity-60 absolute top-1/2 -translate-y-1/2 right-2"><svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M1.56957 2L7.5 7.96501L1.5 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stroke-gray-700"></path></svg></button>'
+        ],
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:2
+            },
+            1200:{
+                items:2
+            }
+        }
+    });
+
+  </script>
 
 </body>
 

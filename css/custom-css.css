@@ -261,3 +261,17 @@
     background: radial-gradient(circle, #ffffff5b 0%, #00d4ff00 100%);
 }
 
+
+.testimonial .testimonial-carousel {
+    position: relative;
+}
+
+.testimonial-item .testimonial-comment p {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: normal !important;
+    word-break: break-all !important;
+}
