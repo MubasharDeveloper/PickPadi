@@ -28,7 +28,7 @@
       <div class="col-lg-5 text-lg-end text-center wow fadeInLeft order-1 order-lg-2"
         style="visibility: visible; animation-name: fadeInLeft;">
         <img src="img/online-shopping.svg" alt="about" class="about-img"
-          style="max-width: 400px !important; width: 100%;">
+          style="max-width: 400px !important; width: 100% !important; margin: 0 auto !important;">
       </div>
     </div>
   </div>

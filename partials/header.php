@@ -1,3 +1,17 @@
+<?php 
+  $page = basename($_SERVER['PHP_SELF']); 
+  $page == 'index.php' ? $home = "#" : $home = "index.php";
+  $page == 'contact-us.php' ? $contact = "#" : $contact = "#";
+  $page == 'services.php' ? $services = "#" : $services = "#";
+  $page == 'about-us.php' ? $about = "#" : $about = "about-us.php";
+
+  function NavActive($page, $id){
+    if($page == $id){
+      echo "active";
+    }
+  }
+?>
+
 <div data-test-id="global-header" class="unified-header unified-header" data-v-de8cbbf4
   style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !important;">
   <div class="unified-header__desktop unified-header-desktop" data-v-44c1ecc5 data-v-de8cbbf4>
@@ -9,15 +23,19 @@
       </div>
 
       <nav class="nav-bar">
-        <a href="index.php" class="nav-btn active">Home</a>
-        <a href="#" class="nav-btn">Contact</a>
-        <a href="#service-card" class="nav-btn">Services</a>
-        <a href="#about-card" class="nav-btn">About</a>
-        <a href="#download-app" class="nav-btn" id="download-app-btn">Download App</a>
+        <a href="<?php echo $home; ?>" class="nav-btn <?php NavActive($page, 'index.php'); ?>">Home</a>
+        <a href="<?php echo $contact; ?>" class="nav-btn <?php NavActive($page, 'contact-us.php'); ?>">Contact</a>
+        <a href="<?php echo $services; ?>" class="nav-btn <?php NavActive($page, 'services.php'); ?>">Services</a>
+        <a href="<?php echo $about; ?>" class="nav-btn <?php NavActive($page, 'about-us.php'); ?>">About</a>
+        <?php
+        if($page == "index.php"){
+          echo '<a href="#download-app" class="nav-btn" id="download-app-btn">Download App</a>';
+        }
+        ?>
       </nav>
 
       <div class="unified-header-desktop__right" data-v-44c1ecc5>
-        <button class="offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <button class="offcanvas-btn" type="button" onclick="showOffcanvas()">
           <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="" style="width: 20px; height: 20px;">
             <path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
           </svg>
@@ -55,7 +73,7 @@
           </a>
         </div>
         <div data-v-6cd8b1c6 class="d-flex flex-row-reverse">
-          <button class="offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          <button class="offcanvas-btn" type="button" onclick="showOffcanvas()">
             <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="" style="width: 20px; height: 20px;">
               <path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
             </svg>
@@ -91,18 +109,24 @@
   </div>
   <div class="offcanvas-body pt-5 mobile-menu">
     <ul class="list-unstyled">
-      <li>
-        <a href="#" class="nav-link">Home</a>
-      </li>
-      <li>
-        <a href="#" class="nav-link">About</a>
-      </li>
-      <li>
-        <a href="#" class="nav-link">Services</a>
-      </li>
-      <li>
-        <a href="#" class="nav-link border-0">Contact</a>
-      </li>
+      <li><a href="<?php echo $home; ?>" class="nav-link" onclick="closeOffcanvas()">Home</a></li>
+      <li><a href="<?php echo $contact; ?>" class="nav-link" onclick="closeOffcanvas()">Contact</a></li>
+      <li><a href="<?php echo $services; ?>" class="nav-link" onclick="closeOffcanvas()">Services</a></li>
+      <li><a href="<?php echo $about; ?>" class="nav-link" onclick="closeOffcanvas()">About</a></li>
+      <?php
+        if($page == "index.php"){
+          echo '<li><a href="#download-app" class="nav-link">Download App</a></li>';
+        }
+      ?>
     </ul>
   </div>
 </div>
+
+<script>
+  function showOffcanvas(){
+    $('#offcanvasRight').addClass('show');
+  }
+  function closeOffcanvas(){
+    $('#offcanvasRight').removeClass('show');
+  }
+</script>
