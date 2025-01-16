@@ -4,6 +4,7 @@
   $page == 'contact-us.php' ? $contact = "#" : $contact = "#";
   $page == 'services.php' ? $services = "#" : $services = "#";
   $page == 'about-us.php' ? $about = "#" : $about = "about-us.php";
+  $page == 'privacy-policy.php' ? $privacy = "#" : $privacy = "privacy-policy.php";
 
   function NavActive($page, $id){
     if($page == $id){
@@ -27,6 +28,7 @@
         <a href="<?php echo $contact; ?>" class="nav-btn <?php NavActive($page, 'contact-us.php'); ?>">Contact</a>
         <a href="<?php echo $services; ?>" class="nav-btn <?php NavActive($page, 'services.php'); ?>">Services</a>
         <a href="<?php echo $about; ?>" class="nav-btn <?php NavActive($page, 'about-us.php'); ?>">About</a>
+        <a href="<?php echo $privacy; ?>" class="nav-btn <?php NavActive($page, 'privacy-policy.php'); ?>">Privacy Policy</a>
         <?php
         if($page == "index.php"){
           echo '<a href="#download-app" class="nav-btn" id="download-app-btn">Download App</a>';
@@ -112,6 +114,7 @@
       <li><a href="<?php echo $home; ?>" class="nav-link" onclick="closeOffcanvas()">Home</a></li>
       <li><a href="<?php echo $contact; ?>" class="nav-link" onclick="closeOffcanvas()">Contact</a></li>
       <li><a href="<?php echo $services; ?>" class="nav-link" onclick="closeOffcanvas()">Services</a></li>
+      <li><a href="<?php echo $privacy; ?>" class="nav-link" onclick="closeOffcanvas()">Privacy Policy</a></li>
       <li><a href="<?php echo $about; ?>" class="nav-link" onclick="closeOffcanvas()">About</a></li>
       <?php
         if($page == "index.php"){
