@@ -42,8 +42,8 @@
         <a href="#" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
           Contact Us
         </a>
-        <a href="#" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
-          Security
+        <a href="privacy-policy.php" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
+          Privacy Policy
         </a>
         <!---->
         <!---->
