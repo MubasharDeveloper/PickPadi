@@ -33,11 +33,11 @@
         <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
           FAQ
         </a>
-        <a href="#" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
-          PickPadi Prime
+        <a href="terms-and-condition.php" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
+          Terms and Conditions
         </a>
-        <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
-          Blog
+        <a data-test-id="footer-link" href="copyright.php" class="footer-column__link" data-v-65b57d68="">
+        Copyright
         </a>
         <a href="#" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
           Contact Us
