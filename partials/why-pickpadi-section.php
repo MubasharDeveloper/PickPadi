@@ -12,28 +12,28 @@
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="stat-item">
-          <h1>3.5</h1>
-          <p>Years Experience</p>
+          <h1>1.10k+</h1>
+          <p>Vendors</p>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="stat-item">
-          <h1>23</h1>
-          <p>Project Challenge</p>
+          <h1>2.6K+</h1>
+          <p>RIDERS/DRIVERS</p>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="stat-item">
-          <h1>830+</h1>
-          <p>Positive Reviews</p>
+          <h1>3.1K+</h1>
+          <p>POSITIVE REVIEWS</p>
         </div>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="stat-item">
-          <h1>100K</h1>
+          <h1>40K</h1>
           <p>Trusted Clients</p>
         </div>
       </div>

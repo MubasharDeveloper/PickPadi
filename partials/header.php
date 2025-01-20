@@ -1,10 +1,8 @@
 <?php 
   $page = basename($_SERVER['PHP_SELF']); 
   $page == 'index.php' ? $home = "#" : $home = "index.php";
-  $page == 'contact-us.php' ? $contact = "#" : $contact = "#";
-  $page == 'services.php' ? $services = "#" : $services = "#";
+  $page == 'contact.php' ? $contact = "#" : $contact = "contact.php";
   $page == 'about-us.php' ? $about = "#" : $about = "about-us.php";
-  $page == 'privacy-policy.php' ? $privacy = "#" : $privacy = "privacy-policy.php";
 
   function NavActive($page, $id){
     if($page == $id){
@@ -26,9 +24,7 @@
       <nav class="nav-bar">
         <a href="<?php echo $home; ?>" class="nav-btn <?php NavActive($page, 'index.php'); ?>">Home</a>
         <a href="<?php echo $contact; ?>" class="nav-btn <?php NavActive($page, 'contact-us.php'); ?>">Contact</a>
-        <a href="<?php echo $services; ?>" class="nav-btn <?php NavActive($page, 'services.php'); ?>">Services</a>
         <a href="<?php echo $about; ?>" class="nav-btn <?php NavActive($page, 'about-us.php'); ?>">About</a>
-        <a href="<?php echo $privacy; ?>" class="nav-btn <?php NavActive($page, 'privacy-policy.php'); ?>">Privacy Policy</a>
         <?php
         if($page == "index.php"){
           echo '<a href="#download-app" class="nav-btn" id="download-app-btn">Download App</a>';
@@ -42,7 +38,7 @@
             <path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
           </svg>
         </button>
-        <button type="button" href data-test-id="login-button" class="helio-button login-button pill"
+        <a type="button" href="https://admin.pickpadi.com/login " data-test-id="login-button" class="helio-button login-button pill"
           data-v-1e30e945 data-v-c1b4f66c data-v-44c1ecc5>
           <span class="helio-button__content" data-v-1e30e945>
             <div class="login-button__content" data-v-1e30e945 data-v-c1b4f66c>
@@ -54,12 +50,12 @@
                   d="M9.00054 10.5C4.94428 10.5 1.4869 13.0661 0.251409 16.6513C-0.0828332 17.6212 0.688456 18.5 1.59362 18.5H16.4075C17.3126 18.5 18.0839 17.6212 17.7497 16.6513C16.5142 13.0661 13.0568 10.5 9.00054 10.5ZM9.00054 12.25C12.1248 12.25 14.791 14.1151 15.9137 16.75H2.08736C3.21004 14.1151 5.8763 12.25 9.00054 12.25Z"
                   fill="#000" />
               </svg>
-              <div class="login-button__title" id="top" data-v-1e30e945 data-v-c1b4f66c>
+              <div  class="login-button__title" id="top" data-v-1e30e945 data-v-c1b4f66c>
                 Login
               </div>
             </div>
           </span>
-        </button>
+      </a>
       </div>
     </div>
   </div>
@@ -80,7 +76,7 @@
               <path fill="#fff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
             </svg>
           </button>
-          <button type="button" href data-test-id="login-button" class="helio-button login-button pill"
+          <a type="button"  href="https://admin.pickpadi.com/login" data-test-id="login-button" class="helio-button login-button pill"
             data-v-1e30e945 data-v-c1b4f66c data-v-6cd8b1c6>
             <span class="helio-button__content" data-v-1e30e945>
               <div class="login-button__content" data-v-1e30e945 data-v-c1b4f66c>
@@ -89,7 +85,7 @@
                 </div>
               </div>
             </span>
-          </button>
+      </a>
         </div>
       </div>
       <div class="unified-header-mobile__bottom" data-v-6cd8b1c6>
@@ -103,7 +99,7 @@
     <a href="index.php" class="" style="text-decoration: none;">
       <img src="img/header-logo.png" alt="" width="75" class="rounded-circle">
     </a>
-    <button type="button" class="btn-close text-white" data-bs-dismiss="offcanvas" aria-label="Close">
+    <button type="button" class="btn-close text-white" onclick="closeOffcanvas()">
       <svg class="svg-inline--fa fa-xmark" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="" style="width: 20px; height: 20px;">
         <path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path>
       </svg>
@@ -113,8 +109,6 @@
     <ul class="list-unstyled">
       <li><a href="<?php echo $home; ?>" class="nav-link" onclick="closeOffcanvas()">Home</a></li>
       <li><a href="<?php echo $contact; ?>" class="nav-link" onclick="closeOffcanvas()">Contact</a></li>
-      <li><a href="<?php echo $services; ?>" class="nav-link" onclick="closeOffcanvas()">Services</a></li>
-      <li><a href="<?php echo $privacy; ?>" class="nav-link" onclick="closeOffcanvas()">Privacy Policy</a></li>
       <li><a href="<?php echo $about; ?>" class="nav-link" onclick="closeOffcanvas()">About</a></li>
       <?php
         if($page == "index.php"){

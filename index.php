@@ -18,11 +18,9 @@
       <div id="default-wrapper" class="app-wrapper" data-v-a8b274d2>
         <div data-test-id="landing-container" class="landing-container global-page-landing" data-v-a8b274d2>
 
-          <?php
-          include('partials/header.php');
-          ?>
+          <?php include('partials/header.php'); ?>
 
-          <div data-test-id="address-container-section" id="home"
+        <div data-test-id="address-container-section" id="home"
             class="global-jumbotron landing-container__jumbotron global-jumbotron--without-wave" data-v-e5745f4e>
             <div data-test-id="address-animation" class="animation" data-v-1cf24364 data-v-e5745f4e>
               <picture data-v-1cf24364>

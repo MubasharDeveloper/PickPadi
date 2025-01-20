@@ -8,13 +8,13 @@
         <div data-test-id="column-title" class="footer-column__title" data-v-65b57d68="">
           Let’s do it together
         </div>
-        <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
+        <a data-test-id="footer-link" href="http://jobs@pickpadi.com " class="footer-column__link" data-v-65b57d68="">
           Careers
         </a>
-        <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
+        <a data-test-id="footer-link" href="http://admin.pickpadi.com " class="footer-column__link" data-v-65b57d68="">
           PickPadi for Partners
         </a>
-        <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
+        <a data-test-id="footer-link" href="http://admin.pickpadi.com " class="footer-column__link" data-v-65b57d68="">
           Couriers
         </a>
         <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
@@ -33,11 +33,11 @@
         <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
           FAQ
         </a>
-        <a href="#" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
-          PickPadi Prime
+        <a href="terms-and-condition.php" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
+          Terms and Conditions
         </a>
-        <a data-test-id="footer-link" href="#" class="footer-column__link" data-v-65b57d68="">
-          Blog
+        <a data-test-id="footer-link" href="copyright.php" class="footer-column__link" data-v-65b57d68="">
+        Copyright
         </a>
         <a href="#" data-test-id="footer-link" class="footer-column__link" data-v-65b57d68="">
           Contact Us
@@ -52,9 +52,9 @@
         <div data-test-id="column-title" class="footer-column__title" data-v-65b57d68="">
           Follow us
         </div>
-        <a data-test-id="footer-link" target="_blank" rel="noopener" href="#" class="footer-column__link" data-v-65b57d68="">
+        <a data-test-id="footer-link" target="_blank" rel="noopener" href="https://www.facebook.com/share/14psaqnLp5/?mibextid=LQQJ4d " class="footer-column__link" data-v-65b57d68="">
           Facebook </a><a data-test-id="footer-link" target="_blank" rel="noopener" href="#" class="footer-column__link" data-v-65b57d68="">
-          Twitter </a><a data-test-id="footer-link" target="_blank" rel="noopener" href="#" class="footer-column__link" data-v-65b57d68="">
+          Twitter </a><a data-test-id="footer-link" target="_blank" rel="noopener" href="https://www.instagram.com/pickpadi?igsh=ZzVscmp6c3pveXp6 " class="footer-column__link" data-v-65b57d68="">
           Instagram
         </a>
       </div>

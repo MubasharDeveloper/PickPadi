@@ -26,9 +26,9 @@
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title">Delievery</h4>
+            <h4 class="card-title">Delievery1</h4>
             <p class="card-text text-secondary">
-              Your favourite food, delivered fast.
+            Your favorite meals, groceries, and more—delivered fast
             </p>
             <img src="img/delivery-address.svg" class="card-image" />
           </div>
@@ -40,7 +40,7 @@
           <div class="card-body">
             <h4 class="card-title">Groceries</h4>
             <p class="card-text text-secondary">
-              All the essentials whenever you need them.
+            Fresh groceries delivered whenever you need them.
             </p>
             <img src="img/shopping-app.svg" class="card-image" />
           </div>
@@ -52,7 +52,7 @@
           <div class="card-body">
             <h4 class="card-title">Ecommerce</h4>
             <p class="card-text text-secondary">
-              All the essentials whenever you need them.
+            Shop anything you need, anytime, delivered to your doorstep.
             </p>
             <img src="img/web-shopping.svg" class="card-image" />
           </div>
@@ -64,7 +64,7 @@
           <div class="card-body">
             <h4 class="card-title">Food Ordering</h4>
             <p class="card-text text-secondary">
-              All the essentials whenever you need them.
+            Order your favorite food anytime, delivered fast to your door.
             </p>
             <img src="img/online-groceries.svg" class="card-image" />
           </div>
@@ -76,7 +76,7 @@
           <div class="card-body">
             <h4 class="card-title">Service Providers</h4>
             <p class="card-text text-secondary">
-              All the essentials whenever you need them.
+            Get the services you need, whenever you need them, delivered to your doorstep.
             </p>
             <img src="img/eating-together.svg" class="card-image" />
           </div>

@@ -4896,7 +4896,6 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 
 .download-app-image {
   flex: 0 1 50%;
-  overflow: hidden;
   z-index: var(--helio-z-index-underlay)
 }
 
@@ -4908,11 +4907,12 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 
 .download-app-image__image {
   aspect-ratio: .9079445145;
-  display: block;
-  height: auto;
-  margin-bottom: -8%;
-  max-width: 100%;
-  transform: translateY(-8%)
+    display: block;
+    height: 280px;
+    max-width: 100%;
+    transform: translateY(-8%);
+    width: 70%;
+    margin-bottom: -400px;
 }
 
 @media(max-width:1024px) {
@@ -5389,4 +5389,18 @@ style="background: linear-gradient(93deg, #ffbe0b -0.03%, #fb5607 48.87%) !impor
 .fade-enter[data-v-4f468ea1],
 .fade-leave-to[data-v-4f468ea1] {
   background-color: transparent
+}
+
+
+@media(max-width: 576px){
+  .container{
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+  }
+
+  .col-md-6{
+      flex: 1 0 auto;
+      width: 100%;
+  }
 }

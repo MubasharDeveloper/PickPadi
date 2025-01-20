@@ -19,12 +19,12 @@
             </div>
           </div>
         </div>
-        <a data-test-id="corporate-element-link" href="#" class="corporate-element__link"><button
+        <a data-test-id="corporate-element-link" href="https://admin.pickpadi.com " class="corporate-element__link"><button
             type="button" href class="helio-button corporate-element__button primary" data-v-1e30e945>
             <!---->
             <!---->
             <span class="helio-button__content" data-v-1e30e945>
-              Contact Us
+               Join Us
             </span>
             <!---->
           </button></a>
@@ -43,12 +43,12 @@
             </div>
           </div>
         </div>
-        <a data-test-id="corporate-element-link" href="#" class="corporate-element__link"><button
+        <a data-test-id="corporate-element-link" href="http://admin.pickpadi.com " class="corporate-element__link"><button
             type="button" href class="helio-button corporate-element__button primary" data-v-1e30e945>
             <!---->
             <!---->
             <span class="helio-button__content" data-v-1e30e945>
-              Contact Us
+            Partner with us
             </span>
             <!---->
           </button></a>
@@ -73,7 +73,7 @@
             <!---->
             <!---->
             <span class="helio-button__content" data-v-1e30e945>
-              Contact Us
+             Contact us
             </span>
             <!---->
           </button></a>

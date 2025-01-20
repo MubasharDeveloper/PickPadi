@@ -47,7 +47,7 @@
                     <!---->
                     <!---->
                     <span class="helio-button__content" data-v-1e30e945>
-                      Explore stores around you
+                    Partner with Us
                     </span>
                     <!---->
                   </button>

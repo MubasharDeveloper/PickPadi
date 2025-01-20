@@ -1,13 +1,13 @@
 <div data-test-id="download-app" id="download-app" class="download-app" data-v-e7bf20b2>
-  <div class="download-app-image" data-v-e7bf20b2>
+  <div class="download-app-image"data-v-e7bf20b2>
     <picture>
       <source srcset="
-                        img/download-app-desktop-opt.avif
+                        img/download.jpg
                       " type="image/avif" />
       <source srcset="
-                        img/download-app-desktop-opt.webp
+                       img/download.jpg
                       " type="image/webp" />
-      <img src="img/download-app-desktop.png" role="presentation" width="670" height="739" loading="lazy"
+      <img src="img/download.jpg" role="presentation" width="300" height="20" loading="lazy"
         class="download-app-image__image" />
     </picture>
   </div>
